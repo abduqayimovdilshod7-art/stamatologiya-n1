@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Oq Tabassum — stomatologiya klinikasi</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Onest:wght@400;500&display=swap">
+<style>
+:root{--bg:#f4faf9;--ink:#0d2b33;--mute:#4d6a71;--card:#fff;--line:#d3e5e3;--brand:#0f8b8d;--brand-ink:#fff;--soft:#dff1ef;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1b1f;--ink:#e6f3f2;--mute:#9db8bb;--card:#112a2f;--line:#1f3d43;--brand:#3fc1c0;--brand-ink:#062125;--soft:#143339}}
+:root[data-theme="dark"]{--bg:#0b1b1f;--ink:#e6f3f2;--mute:#9db8bb;--card:#112a2f;--line:#1f3d43;--brand:#3fc1c0;--brand-ink:#062125;--soft:#143339}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Onest,system-ui,sans-serif}
+h1,h2,h3{font-family:'Bricolage Grotesque',Georgia,sans-serif;line-height:1.1;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0;gap:12px;flex-wrap:wrap}
+.logo{font:700 22px 'Bricolage Grotesque',sans-serif;text-decoration:none}
+nav a{margin-left:18px;text-decoration:none;color:var(--mute)}
+nav a:hover{color:var(--brand)}
+.btn{display:inline-block;background:var(--brand);color:var(--brand-ink);border:0;border-radius:999px;padding:13px 26px;font:500 17px Onest,sans-serif;cursor:pointer;text-decoration:none}
+.btn:hover{filter:brightness(1.08)}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;padding:56px 0 72px}
+.hero h1{font-size:clamp(38px,6vw,64px);font-weight:700}
+.hero p{color:var(--mute);max-width:46ch;margin:20px 0 28px}
+.hero svg{width:100%;max-width:320px;justify-self:center}
+.facts{display:flex;gap:28px;flex-wrap:wrap;margin-top:32px;color:var(--mute);font-size:15px}
+.facts b{display:block;color:var(--ink);font:700 22px 'Bricolage Grotesque',sans-serif}
+section{padding:56px 0;border-top:1px solid var(--line)}
+section>.wrap>h2{font-size:clamp(28px,4vw,40px);margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card h3{font-size:20px;margin-bottom:8px}
+.card p{margin:0;color:var(--mute);font-size:15.5px}
+.price{display:block;margin-top:14px;font-weight:500;color:var(--brand)}
+.doc{display:flex;gap:14px;align-items:center}
+.ava{width:56px;height:56px;border-radius:50%;background:var(--soft);display:grid;place-items:center;font:700 20px 'Bricolage Grotesque',sans-serif;color:var(--brand);flex:none}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:500}
+details p{margin:10px 0 0;color:var(--mute)}
+form{display:grid;gap:14px;max-width:520px}
+label{display:grid;gap:6px;font-weight:500;font-size:15px}
+input,select{font:inherit;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+#ok{display:none;background:var(--soft);padding:16px 20px;border-radius:12px;max-width:520px}
+footer{padding:36px 0;color:var(--mute);font-size:15px;border-top:1px solid var(--line)}
+@media(max-width:720px){.hero{grid-template-columns:1fr;padding-top:24px}.hero svg{max-width:200px;order:-1}nav a{margin:0 14px 0 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="logo" href="#">Oq Tabassum</a>
+  <nav><a href="#xizmatlar">Xizmatlar</a><a href="#shifokorlar">Shifokorlar</a><a href="#savol">Savollar</a><a href="#yozilish">Qabulga yozilish</a></nav>
+</header>
+
+<div class="hero">
+  <div>
+    <h1>Tishlaringiz og'riqsiz davolanadi</h1>
+    <p>Termizdagi oilaviy stomatologiya klinikasi. Davolash, tish oqartirish, implantatsiya va bolalar stomatologiyasi — bir joyda.</p>
+    <a class="btn" href="#yozilish">Qabulga yozilish</a>
+    <div class="facts"><div><b>12 yil</b>tajriba</div><div><b>9:00–20:00</b>har kuni</div><div><b>Bepul</b>birinchi ko'rik</div></div>
+  </div>
+  <svg viewBox="0 0 200 220" role="img" aria-label="Tish tasviri">
+    <path d="M100 18c-22-14-62-8-68 28-4 26 8 40 12 62 4 22 2 62 18 62 14 0 12-34 22-34h32c10 0 8 34 22 34 16 0 14-40 18-62 4-22 16-36 12-62-6-36-46-42-68-28z" fill="var(--soft)" stroke="var(--brand)" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M62 56c6-10 18-14 28-10" stroke="var(--brand)" stroke-width="5" stroke-linecap="round" fill="none"/>
+  </svg>
+</div>
+</div>
+
+<section id="xizmatlar"><div class="wrap">
+  <h2>Xizmatlar</h2>
+  <div class="grid">
+    <div class="card"><h3>Karies davolash</h3><p>Zamonaviy plomba materiallari, behushlik bilan.</p><span class="price">200 000 so'mdan</span></div>
+    <div class="card"><h3>Tish oqartirish</h3><p>Emalga zarar yetkazmaydigan professional oqartirish.</p><span class="price">900 000 so'mdan</span></div>
+    <div class="card"><h3>Implantatsiya</h3><p>Yo'qolgan tishni tiklash, yaxlit tabiiy ko'rinish.</p><span class="price">4 500 000 so'mdan</span></div>
+    <div class="card"><h3>Bolalar stomatologiyasi</h3><p>Bolalar uchun yumshoq muomala va qo'rqitmaydigan muhit.</p><span class="price">150 000 so'mdan</span></div>
+    <div class="card"><h3>Tish tozalash</h3><p>Ultratovush bilan tosh va karashni olib tashlash.</p><span class="price">250 000 so'mdan</span></div>
+    <div class="card"><h3>Breket va tekislash</h3><p>Tishlar va tishlamani to'g'rilash.</p><span class="price">Maslahatda</span></div>
+  </div>
+</div></section>
+
+<section id="shifokorlar"><div class="wrap">
+  <h2>Shifokorlar</h2>
+  <div class="grid">
+    <div class="card doc"><div class="ava">AD</div><div><h3>A. Dilshodbek</h3><p>Terapevt, 12 yil tajriba</p></div></div>
+    <div class="card doc"><div class="ava">AM</div><div><h3>A. Mirjalol</h3><p>Implantolog-jarroh, 9 yil</p></div></div>
+    <div class="card doc"><div class="ava">PA</div><div><h3>P. Asadbek</h3><p>Bolalar stomatologi, 7 yil</p></div></div>
+  </div>
+</div></section>
+
+<section id="savol"><div class="wrap">
+  <h2>Ko'p so'raladigan savollar</h2>
+  <details><summary>Davolash og'riqli bo'ladimi?</summary><p>Barcha muolajalar mahalliy behushlik bilan o'tkaziladi, shuning uchun og'riq sezmaysiz.</p></details>
+  <details><summary>Tishni qancha vaqtda tozalash kerak?</summary><p>Odatda yilda ikki marta professional tozalash va ko'rik tavsiya etiladi.</p></details>
+  <details><summary>Bolani nechi yoshdan olib kelish mumkin?</summary><p>Birinchi tish chiqqandan keyin, taxminan bir yoshdan boshlab.</p></details>
+</div></section>
+
+<section id="yozilish"><div class="wrap">
+  <h2>Qabulga yozilish</h2>
+  <form id="f">
+    <label>Ismingiz<input required name="n" autocomplete="name"></label>
+    <label>Telefon<input required type="tel" name="t" placeholder="+998 90 123 45 67" autocomplete="tel"></label>
+    <label>Xizmat<select name="s"><option>Birinchi ko'rik</option><option>Karies davolash</option><option>Tish oqartirish</option><option>Implantatsiya</option><option>Bolalar stomatologiyasi</option></select></label>
+    <label>Qulay sana<input type="date" name="d"></label>
+    <button class="btn" type="submit">Qabulga yozilish</button>
+  </form>
+  <div id="ok" role="status"></div>
+</div></section>
+
+<footer><div class="wrap">
+  Oq Tabassum stomatologiyasi · Termiz shahri, Denov ko'chasi, 3-uy · +(998) 77-016-16-16 · Har kuni 9:00–20:00<br>
+  Bu namunaviy sayt: nom, manzil va narxlarni o'zingizniki bilan almashtiring.
+</div></footer>
+
+<script>
+document.getElementById('f').addEventListener('submit',function(e){
+  e.preventDefault();
+  var d=new FormData(e.target),o=document.getElementById('ok');
+  o.textContent=d.get('n')+', arizangiz qabul qilindi. Tez orada '+d.get('t')+' raqamiga qo\'ng\'iroq qilamiz.';
+  o.style.display='block';e.target.style.display='none';
+});
+</script>
+</body>
+</html>
